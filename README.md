@@ -4,9 +4,18 @@ This repository contains the Java code for a fully functional ATM interface, whi
 # ATM Interface Project
 
 ## Project Description
-This project is a simple, console-based ATM (Automated Teller Machine) simulation developed in Java as part of an internship task for Brainwave Matrix Solutions. The goal is to demonstrate the use of object-oriented programming principles by simulating basic banking operations such as user authentication, balance inquiry, deposit, and withdrawal functionalities. The project is structured using multiple classes including `ATM`, `User`, `BankDatabase`, `Transaction`, and `ATMInterface`, each responsible for specific operations, making the code modular and easy to understand.
+This project is a simple, console-based ATM (Automated Teller Machine) simulation developed in Java as part of an internship task for Brainwave Matrix Solutions. The goal is to demonstrate the use of object-oriented programming principles by simulating basic banking operations such as user authentication, balance inquiry, deposit, and withdrawal functionalities. The project is structured using multiple classes including `ATM`, `UserInterface`, `ATMOpeartionImpl`, and `ATMInterface`, each responsible for specific operations, making the code modular and easy to understand.
 
 The interface is text-based and runs in a terminal or IDE console. It prompts the user to log in and provides a menu to perform transactions. The data is handled through simple in-memory structures rather than actual databases, making it ideal for learning and demonstration purposes.
+
+**Implemented Features:**
+
+- Balance Enquiry
+- WithdrawAmount
+- Deposit
+- MiniStatement
+
+This project was developed using Java in the Eclipse IDE and managed with Git.
 
 ## Installation
 To install and run this project:
